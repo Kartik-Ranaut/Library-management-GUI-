@@ -17,7 +17,7 @@ def screen3():
       main3.geometry('900x600')
       main3.minsize(900,600)
       main3.maxsize(900,600)
-      photo6 = PhotoImage(file = "logo.png")
+      photo6 = PhotoImage(file = "data.png")
       main3.iconphoto(False, photo6)
        
       canvas=Canvas(main3,width=900,height=600)
@@ -209,7 +209,7 @@ def one():
       main.geometry('900x600')
       main.minsize(900,600)
       main.maxsize(900,600)
-      photo = PhotoImage(file = "logo.png")
+      photo = PhotoImage(file = "data.png")
       main.iconphoto(False, photo)
 
 #.................canvas .........................................
@@ -250,7 +250,7 @@ def librarian():
       main1.geometry("900x600")
       main1.minsize(900,600)
       main1.maxsize(900,600)
-      photo9 = PhotoImage(file = "logo.png")
+      photo9 = PhotoImage(file = "data.png")
       main1.iconphoto(False, photo9)
       global username_login
       global password_login
